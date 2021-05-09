@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+}
+.main{
+    padding:10px;
+    
+}
+
+.container,.container2,.container3{
+    background-color:gray;
+    border:2px solid black;
+    float:left;
+    margin:20px;
+    
+    }
+.menu1{
+    background-color: pink;
+    padding:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    float: right;
+    border:2px solid black;
+} 
+.menu2{
+    background-color: red;
+    padding:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    float:right;
+    border:2px solid black;
+} 
+.menu3{
+    background-color: yellow;
+    padding:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    float:right;
+    border:2px solid black;
+}   
+
+.content{
+    padding:20px;
+    padding-top: 40px;
+    
+}
+
+
+
+  
+
+  
+  @media(min-width:991px){
+    .container,.container2,.container3{
+        width:29%;
+        position: relative;
+        left:14px;
+        
+
+    }
+
+  } 
+ 
+  @media(min-width:768px) and (max-width:991px){
+    .container,.container2{
+        width:45%;
+    }
+    .container3{
+        width:95%;
+    }
+
+}  
+    @media(max-width:767px){
+    .container,.container2,.container3{
+        width:95%;
+    }
+
+  }        
+    
+ 
