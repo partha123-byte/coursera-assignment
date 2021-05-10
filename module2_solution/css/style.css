@@ -1,16 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+
 h1{
     text-align: center;
 }
-.main{
-    padding:10px;
-    
-}
+
 
 .container,.container2,.container3{
     background-color:gray;
-    border:2px solid black;
+    border:1px solid black;
     float:left;
-    margin:20px;
+    margin:5px;
     
     }
 .menu1{
@@ -20,7 +22,8 @@ h1{
     padding-right:20px;
     text-align: center;
     float: right;
-    border:2px solid black;
+    border:1px solid black;
+    margin:0px;
 } 
 .menu2{
     background-color: red;
@@ -29,7 +32,8 @@ h1{
     padding-right:20px;
     text-align: center;
     float:right;
-    border:2px solid black;
+    border:1px solid black;
+    margin: 0px;
 } 
 .menu3{
     background-color: yellow;
@@ -38,7 +42,8 @@ h1{
     padding-right:20px;
     text-align: center;
     float:right;
-    border:2px solid black;
+    border:1px solid black;
+    margin: 0px;
 }   
 
 .content{
@@ -54,7 +59,7 @@ h1{
   
   @media(min-width:991px){
     .container,.container2,.container3{
-        width:29%;
+        width:32%;
         position: relative;
         left:14px;
         
@@ -65,16 +70,16 @@ h1{
  
   @media(min-width:768px) and (max-width:991px){
     .container,.container2{
-        width:45%;
+        width:48%;
     }
     .container3{
-        width:95%;
+        width:97%;
     }
 
 }  
     @media(max-width:767px){
     .container,.container2,.container3{
-        width:95%;
+        width:97%;
     }
 
   }        
